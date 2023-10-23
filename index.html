@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Medi</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- header start -->
+
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="header__all">
+                    <div class="mobile-menu">
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Косметология</a></li>
+                            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Пластическая хирургия</a></li>
+                            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Стоматология</a></li>
+                            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Лазерная медицина</a></li>
+                            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Контакты</a></li>
+                            <li class="mobile-menu__item"><a class="mobile-menu__link mobile-menu__link_btn" href="#">Запись на прием</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__phone">
+                        <a href="tel:+71234567890">+7 (123) 456 78 90</a>
+                    </div>
+                    <div class="header__location">
+                        <div class="header__select-wrapper">
+                            <select class="header__select">
+                                <option value="Poznan">Познань</option>
+                                <option value="Kraków">Кракув</option>
+                                <option value="Донецк">Донецк</option>
+                                <option value="кривойрог">Кривой Рог</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="header__version">
+                        <button header__btn>
+                            <svg width="26" height="18" viewBox="0 0 26 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.0739 4.3102C12.4337 4.3102 11.8223 4.43706 11.2396 4.69078C10.6569 4.9445 10.1563 5.28006 9.73769 5.69748C9.31913 6.11489 8.98264 6.61414 8.72822 7.19524C8.4738 7.77634 8.34659 8.38609 8.34659 9.02448C8.34659 9.66288 8.4738 10.2767 8.72822 10.866C8.98264 11.4553 9.31913 11.9586 9.73769 12.376C10.1563 12.7935 10.6569 13.1249 11.2396 13.3705C11.8223 13.616 12.4337 13.7388 13.0739 13.7388C13.9438 13.7388 14.7399 13.5301 15.4621 13.1127C16.1843 12.6952 16.7547 12.1264 17.1733 11.4062C17.5919 10.6859 17.8011 9.89205 17.8011 9.02448C17.8011 7.73133 17.3415 6.62233 16.4223 5.69748C15.5032 4.77262 14.387 4.3102 13.0739 4.3102ZM13.0739 12.1673C12.5158 12.1673 11.9905 12.0241 11.4981 11.7377C11.0057 11.4512 10.6158 11.0665 10.3286 10.5836C10.0414 10.1007 9.89773 9.57285 9.89773 8.99993C9.89773 8.57434 9.9798 8.1692 10.1439 7.78453C10.3081 7.39986 10.5338 7.06429 10.821 6.77783C11.1083 6.49137 11.4448 6.2663 11.8305 6.10261C12.2162 5.93892 12.6225 5.85707 13.0492 5.85707C13.9192 5.85707 14.6619 6.16399 15.2775 6.77783C15.893 7.39167 16.2008 8.13237 16.2008 8.99993C16.2008 9.86749 15.8971 10.6123 15.2898 11.2343C14.6825 11.8563 13.9438 12.1673 13.0739 12.1673ZM25.6061 8.82806C25.6061 8.81169 25.602 8.79123 25.5938 8.76667C25.5855 8.74212 25.5814 8.72166 25.5814 8.70529C25.5814 8.68892 25.5773 8.67664 25.5691 8.66846L25.5568 8.65618V8.63163L25.5322 8.58252C24.416 6.01258 22.7254 3.99509 20.4602 2.53006C18.1951 1.06503 15.7247 0.33252 13.0492 0.33252C11.2929 0.33252 9.60227 0.651716 7.97727 1.29011C6.35227 1.9285 4.87911 2.87381 3.55777 4.12605C2.23643 5.37828 1.19823 6.86377 0.443184 8.58252V8.6439L0.418562 8.68073V8.7544L0.393941 8.8035C0.377527 8.90172 0.36932 8.97538 0.36932 9.02448C0.36932 9.05722 0.373423 9.08996 0.381631 9.1227C0.389838 9.15544 0.393941 9.18818 0.393941 9.22091C0.393941 9.23728 0.402148 9.26184 0.418562 9.29457V9.34368L0.430873 9.38051L0.443184 9.39279V9.46645C1.57576 12.0364 3.27873 14.0457 5.55209 15.4944C7.82544 16.943 10.3081 17.6673 13 17.6673C14.7563 17.6673 16.4429 17.3522 18.0597 16.722C19.6765 16.0918 21.1414 15.1547 22.4545 13.9106C23.7677 12.6666 24.7936 11.1852 25.5322 9.46645C25.5486 9.46645 25.5568 9.45826 25.5568 9.4419V9.40507L25.5691 9.38051L25.5814 9.36823V9.29457L25.6061 9.24547C25.6225 9.14725 25.6307 9.07359 25.6307 9.02448C25.6307 8.99175 25.6266 8.95901 25.6184 8.92627C25.6102 8.89353 25.6061 8.86079 25.6061 8.82806ZM13 16.0959C10.6692 16.0959 8.51073 15.4862 6.52462 14.2667C4.53851 13.0472 3.02841 11.2998 1.99432 9.02448C3.02841 6.74919 4.54672 4.99361 6.54924 3.75774C8.55177 2.52188 10.7184 1.90395 13.0492 1.90395C14.5593 1.90395 16.0079 2.16585 17.3949 2.68966C18.7819 3.21347 20.0581 4.01965 21.2235 5.10819C22.3889 6.19673 23.3163 7.50216 24.0057 9.02448C22.9716 11.2998 21.4615 13.0472 19.4754 14.2667C17.4893 15.4862 15.3308 16.0959 13 16.0959Z"
+                                    fill="white" />
+                            </svg>
+                            Версия для слабовидящих
+                        </button>
+                    </div>
+                    <div class="header__social">
+                        <a href="#">
+                            <svg width="24" height="14" viewBox="0 0 24 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M21.3624 9.75765C21.3624 9.75765 23.3028 11.6741 23.7828 12.5609C23.7922 12.5736 23.7994 12.5878 23.8044 12.6029C24 12.9305 24.048 13.1873 23.952 13.3769C23.79 13.6901 23.2416 13.8473 23.0556 13.8605H19.626C19.3872 13.8605 18.8904 13.7981 18.2856 13.3805C17.8236 13.0577 17.364 12.5261 16.9188 12.0065C16.254 11.2349 15.6792 10.5653 15.0972 10.5653C15.0237 10.5651 14.9507 10.5773 14.8812 10.6013C14.4408 10.7405 13.8816 11.3681 13.8816 13.0397C13.8816 13.5629 13.4688 13.8605 13.1796 13.8605H11.6088C11.0736 13.8605 8.28722 13.6733 5.81642 11.0681C2.78882 7.87845 0.0696165 1.48005 0.0432165 1.42365C-0.125984 1.00965 0.229217 0.784049 0.613217 0.784049H4.07642C4.54082 0.784049 4.69202 1.06485 4.79762 1.31685C4.92002 1.60605 5.37362 2.76285 6.11762 4.06245C7.32242 6.17685 8.06282 7.03725 8.65442 7.03725C8.76556 7.03758 8.87483 7.0086 8.97122 6.95325C9.74402 6.52845 9.60002 3.76845 9.56402 3.19965C9.56402 3.08925 9.56282 1.96725 9.16682 1.42485C8.88362 1.03605 8.40122 0.884848 8.10962 0.829648C8.18762 0.716848 8.35322 0.544048 8.56562 0.442048C9.09482 0.178048 10.0512 0.139648 11.0004 0.139648H11.5272C12.5568 0.154048 12.8232 0.220048 13.1976 0.314848C13.9512 0.494848 13.9656 0.983249 13.8996 2.64645C13.8804 3.12165 13.86 3.65685 13.86 4.28685C13.86 4.42125 13.854 4.57125 13.854 4.72365C13.8312 5.57685 13.8012 6.53805 14.4036 6.93285C14.4817 6.98152 14.572 7.0073 14.664 7.00725C14.8728 7.00725 15.498 7.00725 17.1936 4.09725C17.9376 2.81205 18.5136 1.29645 18.5532 1.18245C18.5868 1.11885 18.6876 0.940048 18.81 0.868048C18.8971 0.821723 18.9946 0.798581 19.0932 0.800849H23.1672C23.6112 0.800849 23.9124 0.868049 23.9712 1.03605C24.0696 1.30845 23.952 2.14005 22.092 4.65525C21.7788 5.07405 21.504 5.43645 21.2628 5.75325C19.5768 7.96605 19.5768 8.07765 21.3624 9.75765Z"
+                                    fill="#4FBFA5" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__social">
+                        <a href="#">
+                            <svg width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.0575 2.94515C20.938 2.50118 20.704 2.09638 20.3789 1.77127C20.0537 1.44616 19.649 1.21215 19.205 1.09265C17.57 0.650147 11 0.650146 11 0.650146C11 0.650146 4.42998 0.650147 2.79498 1.09265C2.35101 1.21215 1.94622 1.44616 1.62111 1.77127C1.296 2.09638 1.06199 2.50118 0.942484 2.94515C0.637194 4.6126 0.489044 6.30501 0.499984 8.00014C0.489044 9.69528 0.637194 11.3877 0.942484 13.0551C1.06199 13.4991 1.296 13.9039 1.62111 14.229C1.94622 14.5541 2.35101 14.7881 2.79498 14.9076C4.42998 15.3501 11 15.3501 11 15.3501C11 15.3501 17.57 15.3501 19.205 14.9076C19.649 14.7881 20.0537 14.5541 20.3789 14.229C20.704 13.9039 20.938 13.4991 21.0575 13.0551C21.3628 11.3877 21.5109 9.69528 21.5 8.00014C21.5109 6.30501 21.3628 4.6126 21.0575 2.94515ZM8.89998 11.1501V4.85015L14.3525 8.00014L8.89998 11.1501Z"
+                                    fill="#4FBFA5" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__social">
+                        <a href="#">
+                            <svg width="10" height="18" viewBox="0 0 10 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.39703 17.9969V9.80092H9.16203L9.57303 6.59193H6.39703V4.54792C6.39703 3.62192 6.65503 2.98793 7.98403 2.98793H9.66803V0.126925C8.84867 0.0391161 8.02508 -0.00328216 7.20103 -7.49744e-05C4.75703 -7.49744e-05 3.07903 1.49193 3.07903 4.23093V6.58593H0.332031V9.79492H3.08503V17.9969H6.39703Z"
+                                    fill="#4FBFA5" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__social">
+                        <a href="#">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_21_50)">
+                                    <path
+                                        d="M16.5 0H7.5C3.3585 0 0 3.3585 0 7.5V16.5C0 20.6415 3.3585 24 7.5 24H16.5C20.6415 24 24 20.6415 24 16.5V7.5C24 3.3585 20.6415 0 16.5 0ZM21.75 16.5C21.75 19.395 19.395 21.75 16.5 21.75H7.5C4.605 21.75 2.25 19.395 2.25 16.5V7.5C2.25 4.605 4.605 2.25 7.5 2.25H16.5C19.395 2.25 21.75 4.605 21.75 7.5V16.5Z"
+                                        fill="#4FBFA5" />
+                                    <path
+                                        d="M12 6C8.6865 6 6 8.6865 6 12C6 15.3135 8.6865 18 12 18C15.3135 18 18 15.3135 18 12C18 8.6865 15.3135 6 12 6ZM12 15.75C9.933 15.75 8.25 14.067 8.25 12C8.25 9.9315 9.933 8.25 12 8.25C14.067 8.25 15.75 9.9315 15.75 12C15.75 14.067 14.067 15.75 12 15.75Z"
+                                        fill="#4FBFA5" />
+                                    <path
+                                        d="M18.4479 6.34997C18.8895 6.34997 19.2474 5.99203 19.2474 5.55048C19.2474 5.10892 18.8895 4.75098 18.4479 4.75098C18.0064 4.75098 17.6484 5.10892 17.6484 5.55048C17.6484 5.99203 18.0064 6.34997 18.4479 6.34997Z"
+                                        fill="#4FBFA5" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_21_50">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="burger"><i class="fa-solid fa-bars-staggered"></i></div>
+
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- menu section start -->
+        <nav class="menu">
+            <div class="container">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="#">Косметология</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Пластическая хирургия</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Стоматология</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Лазерная медицина</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                    <li class="menu__item"><a class="menu__link menu__link_btn" href="#">Запись на прием</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- menu section end -->
+
+        <!-- slider section start -->
+        <div class="slider">
+            <div class="container">
+                <div class="slider__box">
+                    <div class="slider__item">
+                        <div class="slider__content">
+                            <h2 class="slider__title">Косметология</h2>
+                            <p class="slider__text">Современный мир диктует новые каноны жизни: ухоженное лицо и тело,
+                                стройная, подтянутая фигура — сегодня это неотъемлемые черты привлекательной внешности,
+                                характеризующие человека благополучного и успешного.</p>
+                            <a class="slider__button" href="#">подробнее</a>
+                        </div>
+                        <div class="slider__image">
+                            <img src="img/slide1.jpg" alt="spa">
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__content">
+                            <h2 class="slider__title">Косметология</h2>
+                            <p class="slider__text">Современный мир диктует новые каноны жизни: ухоженное лицо и тело,
+                                стройная, подтянутая фигура — сегодня это неотъемлемые черты привлекательной внешности,
+                                характеризующие человека благополучного и успешного.</p>
+                            <a class="slider__button" href="#">подробнее</a>
+                        </div>
+                        <div class="slider__image">
+                            <img src="img/slide2.jpg" alt="spa">
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__content">
+                            <h2 class="slider__title">Косметология</h2>
+                            <p class="slider__text">Современный мир диктует новые каноны жизни: ухоженное лицо и тело,
+                                стройная, подтянутая фигура — сегодня это неотъемлемые черты привлекательной внешности,
+                                характеризующие человека благополучного и успешного.</p>
+                            <a class="slider__button" href="#">подробнее</a>
+                        </div>
+                        <div class="slider__image">
+                            <img src="img/slide3.jpg" alt="spa">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- slider section end -->
+
+        <!-- tabs section start -->
+        <div class="tabs">
+            <div class="container">
+                <!-- tab buttons -->
+                <!-- <input type="radio" name="tab" id="tab1" checked>
+                <label class="label1" for="tab1">Комплексные процедуры</label>
+
+                <input type="radio" name="tab" id="tab2" checked>
+                <label for="tab2">Центр обучения</label>
+
+                <input type="radio" name="tab" id="tab3">
+                <label for="tab3">VIP клиентам</label> -->
+
+                <!-- first tab content -->
+                <div class="tabs__content">
+                    <div class="tabs__top card">
+                        <div class="card__image-block">
+                            <a href="#">
+                                <div class="card__text">
+                                    <span class="card__sign">Инновации</span>
+                                    <p class="card__p">Мы практикуем новый курс процедур аппаратной
+                                        косметологии </p>
+                                    <div class="card__details">Подробнее</div>
+                                </div>
+                                <div class="card__image"><img src="img/face.jpg" alt="face"></div>
+                            </a>
+                        </div>
+                        <div class="card__text-block">
+                            <span class="card__sign">Эстетика красоты</span>
+                            <div class="card__list">
+                                <span class="card__number">78</span>
+                                <p class="card__number-text">Современных центрав странах СНГ</p>
+                            </div>
+                            <div class="card__list">
+                                <span class="card__number">78</span>
+                                <p class="card__number-text">Современных центрав странах СНГ</p>
+                            </div>
+                            <div class="card__list">
+                                <span class="card__number card__list_big">20</span>
+                                <p class="card__number-text card__number-text_big">Уникальных патентов в области
+                                    косметологии</p>
+                            </div>
+                            <div class="card__list">
+                                <span class="card__number">78</span>
+                                <p class="card__number-text">Современных центрав странах СНГ</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__bottom">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tabs section end -->
+
+        <!-- information section start -->
+        <div class="information">
+            <div class="container">
+                <div class="information__block">
+                    <div class="news">
+                        <p class="news__btn">Новости</p>
+                        <ul class="news__list">
+                            <li class="news__item active">Почему рекомендуется посещать профессионального косметолога.
+                                Мнение специалистов центра
+                            </li>
+                            <li class="news__item">Стандартизация деятельности клиник в соответствии с ISO 9001:2015.
+                            </li>
+                            <li class="news__item">Индивидуальный подход к каждому пациенту и подбор оптимальных
+                                косметологических методик.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="recomendation">
+                        <div class="recomendation__content">
+                            <div class="recomendation__heading">
+                                Почему рекомендуется посещать профессионального косметолога. Мнение специалистов центра
+                            </div>
+                            <div class="recomendation__list-block">
+                                <ul class="recomendation__list">
+                                    <li class="recomendation__item">Процедуры аппаратной косметологии на оборудовании
+                                        экспертного класса от ведущих мировых производителей могут проводиться в любом
+                                        возрасте и решать широкий спектр проблем: возрастные изменения, покраснения,
+                                        акне и купероз, потеря тонуса и упругости кожи, отечность, целлюлит и т. п.</li>
+                                    <li class="recomendation__item">
+                                        С помощью инъекционных методик мы можем разгладить морщины, провести объёмное
+                                        моделирование, увлажнить кожу, ввести активные вещества в поверхностные и
+                                        средние слои кожи, запустить процессы омоложения.
+                                    </li>
+                                    <li class="recomendation__item">
+                                        Лазерное и фотоомоложение помогут запустить процесс синтеза собственного
+                                        коллагена, улучшить светооптические свойства кожи, а также получить максимальный
+                                        эффект подтяжки лица без уколов и длительного восстановительного периода.
+                                    </li>
+                                    <li class="recomendation__item">
+                                        Курс процедур лазерной эпиляции поможет навсегда избавиться от проблемы
+                                        нежелательных волос.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- information section end -->
+
+        <!-- offer section start -->
+        <div class="offer">
+            <div class="container">
+                <h3 class="offer__title">Актуальные спецпредложения</h3>
+                <div class="offer__items">
+
+                    <div class="offer__item">
+                        <a href="#">
+                            <figure>
+                                <img class='offer__img' src='img/work1.jpg' alt="work1">
+                                <figcaption class="offer__item-text">Лазерное и фотоомоложение</figcaption>
+                                <span class="offer__image-text">Косметология</span>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="offer__item">
+                        <a href="#">
+                            <figure>
+                                <img class='offer__img' src='img/work2.jpg' alt="work2">
+                                <figcaption class="offer__item-text">Лазерное и фотоомоложение</figcaption>
+                                <span class="offer__image-text">Косметология</span>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="offer__item">
+                        <a href="#">
+                            <figure>
+                                <img class='offer__img' src='img/work3.jpg' alt="work3">
+                                <figcaption class="offer__item-text">Лазерное и фотоомоложение</figcaption>
+                                <span class="offer__image-text">Косметология</span>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="offer__item">
+                        <a href="#">
+                            <figure>
+                                <img class='offer__img' src='img/work4.jpg' alt="work4">
+                                <figcaption class="offer__item-text">Лазерное и фотоомоложение</figcaption>
+                                <span class="offer__image-text">Косметология</span>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- offer section end -->
+
+        <!-- footer section start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <div class="footer__list-box">
+                        <div class="footer__list-title">Услуги</div>
+                        <ul>
+                            <li><a href="#">Косметология</a></li>
+                            <li><a href="#">Пластическая хирургия</a></li>
+                            <li><a href="#">Стоматология</a></li>
+                            <li><a href="#">Лазерная медицина</a></li>
+                        </ul>
+                        <div class="footer__list-title">Услуги</div>
+                        <ul>
+                            <li><a href="#">Дермотология</a></li>
+                            <li><a href="#">Масаж</a></li>
+                            <li><a href="#">Апоратные проыедуры</a></li>
+                            <li><a href="#">Лазерная епиляция</a></li>
+                        </ul>
+                        <div class="footer__list-title">Услуги</div>
+                        <ul>
+                            <li><a href="#">Косметология</a></li>
+                            <li><a href="#">Пластическая хирургия</a></li>
+                            <li><a href="#">Стоматология</a></li>
+                            <li><a href="#">Лазерная медицина</a></li>
+                        </ul>
+                        <div class="footer__list-title">Услуги</div>
+                        <ul>
+                            <li><a href="#">Дермотология</a></li>
+                            <li><a href="#">Масаж</a></li>
+                            <li><a href="#">Апоратные проыедуры</a></li>
+                            <li><a href="#">Лазерная епиляция</a></li>
+                        </ul>
+                        <div class="footer__list-title">Услуги</div>
+                        <ul>
+                            <li><a href="#">Косметология</a></li>
+                            <li><a href="#">Пластическая хирургия</a></li>
+                            <li><a href="#">Стоматология</a></li>
+                            <li><a href="#">Лазерная медицина</a></li>
+                        </ul>
+                        <div class="footer__list-title">Услуги</div>
+                        <ul>
+                            <li><a href="#">Дермотология</a></li>
+                            <li><a href="#">Масаж</a></li>
+                            <li><a href="#">Апоратные проыедуры</a></li>
+                            <li><a href="#">Лазерная епиляция</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__contact-box">
+                        <div class="footer__contact-number">
+                            <p class="footer__contact">телефон</p>
+                            <a href="tel:+78121234567">+7 (812) 123-45-67</a>
+                        </div>
+                        <div class="footer__contact-address">
+                            <p class="footer__contact">адрес</p>
+                            <div class="footer__contact-place">Невский пр. 140, пом. 10</div>
+                            <a class="footer__btn" href="contact.html">как проехать?</a>
+                        </div>
+                        <div class="footer__contact-address">
+                            <p class="footer__contact">адрес</p>
+                            <div class="footer__contact-place">Большой пр. 12</div>
+                            <a class="footer__btn" href="contact.html">как проехать?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container container__bottom">
+                <div class="footer__bottom">
+                    <div class="footer__bottom-copyright">
+                        <div class="footer__bottom-copyright-left">(c) 2021. Центр космелогии. Все права защищены.
+                            Наши сертификаты на осуществление деятельности.
+                            Патенты на использование технологий.</div>
+                        <div class="footer__bottom-copyright-right"><a href="#">Политика конфиденциальности</a></div>
+                    </div>
+                    <div class="footer__bottom-button">
+                        <a href="#"><img src="img/eye.svg" alt="eye">Версия для слабовидящих</a>
+                    </div>
+                    <div class="footer__bottom-social">
+                        <a class="footer__bottom-link" href="#"><img src="img/wk.svg" alt="wk"></a>
+                        <a class="footer__bottom-link" href="#"><img src="img/youtube.svg" alt="youtube"></a>
+                        <a class="footer__bottom-link" href="#"><img src="img/facebook.svg" alt="facebook"></a>
+                        <a class="footer__bottom-link" href="#"><img src="img/instagram.svg" alt="instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer section end -->
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
